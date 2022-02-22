@@ -3,9 +3,70 @@
     text-align: center;
     
 }
+::-webkit-scrollbar{
+    width: 11px;
+}
+::-webkit-scrollbar-track{
+    background-color: #212121;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #4973ff;
+    border-radius: 3px;
+}
+.cards {
+    margin-top: 100px;
+    max-width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#f94bff, #5B42F3 50%,#00DDEB);
+}
+.game{
+    font-size: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 20em
+
+}  
+.abertura{
+    width: auto;
+    margin-top: -300px;
+    height: 1000px;
+}
+.card__content {
+    color: white;
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+
 a{
     text-decoration: none;
     color:white;
+}
+h5{
+    color: white;
+}
+.logosCimaI{
+    margin: 16px;
+    margin-top: 30px;
+    max-width: 12%;
+}
+.logosBaixoI{
+    max-width: 12%;
+    margin: 16px;
+
+}
+.logos{
+    color: white;
+    margin-top: 70px;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.26);
 }
 #how{
 
@@ -18,13 +79,14 @@ a{
     border-radius: 40px;
     border: none;
     cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 68, 255, 0.651);
 
 }
 #how .span1{
     position: relative;
     color: #fff;
     font-family: Arial;
-    letter-spacing: 8px;
+    letter-spacing: 7px;
     z-index: 1;
 }
 #how .liquid{
@@ -148,6 +210,22 @@ h3{
     padding: 13px;
     width: 400px;
     border: 2px solid black;
+    font-family: Arial;
+    font-size: 18px;
+}
+#game1{
+    display: inline-flex;
+    margin-top: 130px;
+}
+#game2{
+    margin-top: 70px;
+    display: flex;
+}
+#game3{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+
 }
 #select{
     padding: 13px;
@@ -240,9 +318,27 @@ option{
     border-radius: 50% 50% 46% 54% / 20% 20% 80% 80% ;
 
 }
+.comCards{
+    margin-top: 130px;
+    max-width: 80%;
+    height: 600px;
+    background-color: #212121;
+    box-shadow: 15px 15px 30px #19191949,
+    -15px -15px 30px #29292954;
+    transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+    transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comCards:hover{
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transform: scale(1.05);
+}
 #reload:hover{
     transition: 0.5s;
     opacity: 0.7;
+    transform: rotate(90deg);
 }
 #iframed{
     margin-left: 20px;
