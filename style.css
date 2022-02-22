@@ -160,7 +160,7 @@ h5{
 h1{
     width: 22.7ch;
     margin-top: 200px;
-    font-size: 90px;
+    font-size: 70px;
     animation: typing 2.5s steps(30), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
