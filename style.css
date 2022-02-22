@@ -158,9 +158,9 @@ h5{
     justify-content: center;
 }
 h1{
-    width: 16ch;
+    width: 22.7ch;
     margin-top: 200px;
-    font-size: 100px;
+    font-size: 90px;
     animation: typing 2.5s steps(30), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
